@@ -1,0 +1,98 @@
+body.login {
+	background: #fff !important;
+}
+
+.login h1 a {
+	background-image: url('../images/logo-login.png');
+	background-size: 300px 192px;
+	width: 300px;
+	height: 192px;
+	margin: 0 auto;
+}
+
+.login form {
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px 30px;
+	border: none;
+	background-clip: padding-box;
+	background: none;
+	box-shadow: none;
+	overflow: hidden;
+	margin-top: 0;
+}
+
+.login label {
+	color: #333;
+	line-height: 26px;
+}
+
+.login input[type=text],
+.login input[type=password] {
+	border-radius: 2px;
+	border: 1px solid #ccc;
+}
+
+.login input[type=text]:focus,
+.login input[type=password]:focus {
+	border: 1px solid #ec0505;
+}
+
+.login .button-primary {
+	padding: 3px 18px !important;
+	line-height: 20px !important;
+	float: right;
+	background-color: #ededed !important;
+	border: none;
+	border-radius: 0;
+	text-shadow: none;
+	box-shadow: none;
+	font-family: 'Oswald', Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #ec0505;
+	position: relative;
+	top: -5px;
+}
+
+.login .button-primary:hover,
+.login #nav a:last-child:hover, 
+#backtoblog a:hover {
+	background-color: #ededed !important;
+	color: #000 !important;
+	border: none;
+	box-shadow: none;
+}
+
+.login .button-primary:active,
+.login #nav a:last-child:active,
+#backtoblog a:active {
+	background-color: none !important;
+	color: #000 !important;
+	border: none;
+	box-shadow: none;
+}
+
+.login #nav {
+	color: #fff !important;
+}
+
+.login #nav a:first-child {
+	display: none;
+}
+
+.login #nav a:last-child, #backtoblog a {
+	padding: 3px 18px !important;
+	line-height: 20px !important;
+	background-color: none !important;
+	border: none;
+	border-radius: 0;
+	font-family: 'Oswald', Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #000 !important;
+}
+.login .message {
+	border-left: none;
+	background: none;
+	padding: 30px 30px 0 30px;
+	box-shadow: none;
+}
